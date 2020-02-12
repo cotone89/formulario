@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <h1>Formulario de Registro</h1>
+
+
+        <form onsubmit="validaDatos();">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="80" placeholder="Apellidos">
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" maxlength="100" placeholder="Correo">
+
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" maxlength="20" placeholder="Usuario">
+
+            <label for="contrasenia">Contraseña:</label>
+            <input type="password" id="contrasenia" name="contrasenia" maxlength="20" placeholder="Contraseña">
+
+            <label for="telefono">Tel&eacute;fono:</label>
+            <input type="number" id="telefono" name="telefono" maxlength="15" placeholder="Tel&eacute;fono">
+
+
+
+            <input type="submit" value="Registrar">
+        </form>
+
+
+
+        <script src="assets/js/script.js"></script>
+    </body>
+
+</html>
